@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "Coin-Star3";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -16,7 +16,7 @@
         // Load custom settings set below
         bot.retrieveSettings();
 
-        //Extend the bot here, either by calling another function or here directly.
+s        //Extend the bot here, either by calling another function or here directly.
 
         // You can add more spam words to the bot.
         var spamWords = ['spam1', 'spam2', 'spam3', 'spam4'];
@@ -26,7 +26,7 @@
 
         // Example code for a bot command:
         bot.commands.baconCommand = {
-          command: 'bacon',  // The command to be called. With the standard command literal this would be: !bacon
+l          command: 'bacon',  // The command to be called. With the standard command literal this would be: !bacon
           rank: 'user', // Minimum user permission to use the command
           type: 'exact', // Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
           functionality: function (chat, cmd) {
@@ -46,7 +46,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
+      botName: "Coin-Bot3",
       language: "english",
       chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
@@ -54,7 +54,7 @@
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
       startupEmoji: false, // true or false
-      autowoot: true,
+      autowoot: false,
       autoskip: false,
       smartSkip: true,
       cmdDeletion: true,
@@ -66,7 +66,7 @@
       lockdownEnabled: false,
       lockGuard: false,
       maximumLocktime: 10,
-      cycleGuard: true,
+1      cycleGuard: true,
       maximumCycletime: 10,
       voteSkip: false,
       voteSkipLimit: 10,
@@ -90,7 +90,7 @@
       afkRankCheck: "ambassador",
       motdEnabled: false,
       motdInterval: 5,
-      motd: "Temporary Message of the Day",
+      motd: "Welcome to the Unofficial CFEW plug.dj room! Do !commands to see various commands",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
@@ -101,7 +101,7 @@
       youtubeLink: null,
       website: null,
       intervalMessages: [],
-      messageInterval: 5,
+      messageInterval: 1,
       songstats: true,
       commandLiteral: "!",
       blacklists: {
