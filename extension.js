@@ -49,7 +49,7 @@ l          command: 'bacon',  // The command to be called. With the standard com
       botName: "Coin-Bot3",
       language: "english",
       chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
-      scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+      scriptLink: "https://rawgit.com/Coin-Star3/source/blob/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
@@ -112,6 +112,6 @@ l          command: 'bacon',  // The command to be called. With the standard com
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/basicBot/source/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/Coin-Star3/source/blob/master/basicBot.js", extend);
 
 }).call(this);
